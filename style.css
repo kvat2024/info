@@ -370,7 +370,7 @@ span {
   #hero {
     background-image: url(image/blue-and-yellow-14.jpg);
     flex-direction: column;
-    height: 40rem;
+    height: 39rem;
     width: 100%;
   }
   #services {
