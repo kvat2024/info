@@ -302,6 +302,7 @@ span {
   background-color: rgb(31, 30, 30, 0.24);
   font-size: 15px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .contact-to > button:hover {
   background-color: #ff8800;
@@ -330,12 +331,13 @@ span {
   padding: 0 5px;
   border: none;
 }
-.form > a button {
+.form > div button {
   padding: 5px 20px;
   font-size: 15px;
   border-radius: 5px;
   background-color: #ff8800;
   border: none;
+  cursor: pointer;
 }
 /* end form */
 #copyright {
@@ -347,7 +349,45 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
+  .name-title {
+    font-size: 40px;
+  }
+  .name-title > div button {
+    padding: 7px 40px;
+  }
   #about-me {
+    flex-direction: column;
+    flex-basis: 10%;
+    justify-content: space-around;
+  }
+  .about {
+    font-size: 200px;
+  }
+  #hero-2 {
+    height: 500px;
+    width: 400px;
+  }
+  #hero {
+    background-image: url(image/blue-and-yellow-14.jpg);
+    flex-direction: column;
+    height: 40rem;
+    width: 100%;
+  }
+  #services {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #my-work {
+    flex-direction: column;
+    gap: 20px;
+  }
+  #contact-me {
+    flex-direction: column;
+  }
+  .contact-to h1 {
+    text-align: center;
+  }
+  #nav-bar {
     flex-direction: column;
   }
 }
