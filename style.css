@@ -353,7 +353,10 @@ span {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 61rem) {
+  body {
+    background-color: lightblue;
+  }
   section {
     width: 85%;
   }
