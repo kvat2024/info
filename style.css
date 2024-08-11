@@ -398,22 +398,15 @@ span {
   .about {
     text-align: justify;
   }
-  .about div > p {
-    margin: auto;
-  }
   .about div h1 {
     font-size: 35px;
-  }
-  .tab-item {
-    margin: auto;
   }
   .tab-item div > h2 {
     font-size: 18px;
   }
   #hero-2 {
     height: 500px;
-    width: 400px;
-    margin: 0 auto;
+    margin: auto;
   }
   #hero {
     display: none;
