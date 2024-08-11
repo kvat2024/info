@@ -362,7 +362,7 @@ span {
 
 @media (max-width: 600px) {
   #nav-bar {
-    padding: 0 50px;
+   display: none;
   }
   .nav-bar {
     display: none;
