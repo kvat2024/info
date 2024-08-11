@@ -360,9 +360,9 @@ span {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   #nav-bar {
-   display: none;
+    display: none;
   }
   .nav-bar {
     display: none;
@@ -395,6 +395,7 @@ span {
     flex-direction: column;
   }
   .about {
+    padding: 0 30px;
     text-align: justify;
   }
   .about div > p {
@@ -412,7 +413,7 @@ span {
   #hero-2 {
     height: 500px;
     width: 400px;
-    margin: auto;
+    margin: 0 auto;
   }
   #hero {
     display: none;
